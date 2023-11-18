@@ -30,7 +30,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: 'Build Folia .jar'
         run: |
-          git clone https://github.com/NoShot-Server/Folia
+          git clone https://github.com/NoShot-Server/DirtyFolia
           git config --global user.email "you@example.com"
           git config --global user.name "Your Name"
           cd Folia
